@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    app:cardBackgroundColor="@color/colorAccent"
+    app:cardCornerRadius="@dimen/_20ssp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/novel_user_Profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10ssp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/rounded_card_quote"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/_5sdp"
+            android:paddingTop="@dimen/_3sdp"
+            android:paddingEnd="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_4sdp"
+            app:layout_constraintBottom_toTopOf="@id/item_Novel_URL"
+            app:layout_constraintEnd_toStartOf="@id/item_Novel_Name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            >
+
+            <ImageView
+                android:id="@+id/novel_star"
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/ic_star" />
+
+            <TextView
+                android:id="@+id/novel_View_Username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:fontFamily="@font/ubuntu"
+                android:paddingEnd="@dimen/_5sdp"
+                android:text="username"
+                android:textColor="@color/colorTxt"
+                android:textColorHint="@color/colorTxt"
+                android:textSize="@dimen/_10sdp"
+                tools:ignore="RtlSymmetry" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/item_Novel_Name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10ssp"
+            android:layout_marginEnd="@dimen/_20ssp"
+            android:fontFamily="@font/regularaa"
+            android:maxLines="3"
+            android:textColor="@color/colorTxt"
+            android:textColorHint="@color/colorTxt"
+            app:layout_constraintBottom_toTopOf="@id/btn_Novel_Delete"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/novel_user_Profile"
+            app:layout_constraintTop_toTopOf="parent"
+
+            />
+
+        <ImageView
+            android:id="@+id/btn_Novel_Delete"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/ic_trash_bin"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btn_Novel_Accept"
+            app:layout_constraintStart_toStartOf="@id/item_Novel_Name"
+            app:layout_constraintTop_toBottomOf="@id/item_Novel_Name"
+
+            />
+
+        <ImageView
+            android:id="@+id/btn_Novel_Accept"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/accept_mark"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/item_Novel_Name"
+            app:layout_constraintStart_toEndOf="@id/btn_Novel_Delete"
+            app:layout_constraintTop_toBottomOf="@id/item_Novel_Name"
+
+            />
+
+        <ImageView
+            android:id="@+id/item_Novel_URL"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:src="@drawable/ic_file_download"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/novel_user_Profile"
+            app:layout_constraintStart_toStartOf="@id/novel_user_Profile"
+            app:layout_constraintTop_toBottomOf="@id/novel_user_Profile"
+            app:tint="#009688" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

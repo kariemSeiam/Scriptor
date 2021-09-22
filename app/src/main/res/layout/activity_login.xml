@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:nestedScrollingEnabled="true"
+    tools:context=".auth.Login">
+
+    <TextView
+        android:id="@+id/title_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginBottom="@dimen/_20ssp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:lineSpacingExtra="4sp"
+        android:text="Welcome in Scriptor…\n Login to continue."
+        android:textColor="@color/colorTxt"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title_SignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_20ssp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="@string/create_a_new_account"
+        android:textColor="@color/colorTxt"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_Mail_Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20ssp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginEnd="@dimen/_20ssp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/rounded_edt_register"
+        android:drawableStart="@drawable/ic_mail"
+        android:drawablePadding="@dimen/_10ssp"
+        android:fontFamily="@font/ubuntu"
+        android:hint="E-Mail"
+        android:padding="@dimen/_15sdp"
+        android:textColor="@color/colorTxt"
+        android:textColorHint="#979797"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_Login"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/edt_Pass_Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20ssp"
+        android:layout_marginTop="@dimen/_10ssp"
+        android:layout_marginEnd="@dimen/_20ssp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:inputType="textPassword"
+        android:background="@drawable/rounded_edt_register"
+        android:drawableStart="@drawable/ic_pass"
+        android:drawablePadding="@dimen/_10ssp"
+        android:fontFamily="@font/ubuntu"
+        android:hint="Password"
+        android:padding="@dimen/_15sdp"
+        android:textColor="@color/colorTxt"
+        android:textColorHint="#979797"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_Mail_Login"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_RestPass_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10ssp"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/ubuntu_bold"
+        android:padding="@dimen/_10ssp"
+        android:text="@string/rest_password"
+        android:textColor="#919191"
+        android:textSize="@dimen/_15ssp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/edt_Pass_Login"
+        app:layout_constraintTop_toBottomOf="@id/edt_Pass_Login" />
+
+
+    <Button
+        android:id="@+id/btn_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_10ssp"
+        android:backgroundTint="#757575"
+        android:ems="6"
+        android:fontFamily="@font/ubuntu_bold"
+        android:padding="@dimen/_5ssp"
+        android:text="Login"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/_13ssp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/edt_Pass_Login"
+        app:layout_constraintTop_toBottomOf="@id/tv_RestPass_Login"
+        tools:ignore="UnusedAttribute" />
+
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10ssp"
+        android:layout_marginBottom="@dimen/_10ssp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="----"
+        android:textColor="#535353"
+        android:textSize="@dimen/_20ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_Login" />
+
+    <TextView
+        android:id="@+id/tv_SignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10ssp"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="@string/create_a_new_accoun"
+        android:textColor="@color/colorTxt"
+        android:textSize="@dimen/_18ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/or" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+

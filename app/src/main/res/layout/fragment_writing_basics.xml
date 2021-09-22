@@ -1,0 +1,1226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    app:chainUseRtl="true"
+    tools:context=".sections.Writing_Basics">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginTop="@dimen/_15ssp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/font_aaaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/w1"
+                android:textColor="@color/colorTxt"
+                android:textIsSelectable="true"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_15ssp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/w2"
+                android:textColor="#009688"
+                android:textIsSelectable="true"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/w3"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_15ssp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/w5"
+                android:textColor="#009688"
+                android:textIsSelectable="true"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/w55"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_15ssp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/w554"
+                android:textColor="#009688"
+                android:textIsSelectable="true"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/w10"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/amjad"
+                android:gravity="center"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/w12"
+                android:textColor="#009688"
+                android:textIsSelectable="true"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing01"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing02"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing03"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing04"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing05"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_15ssp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/w41"
+                android:textColor="#009688"
+                android:textIsSelectable="true"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing2"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing3"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing4"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing5"
+                android:textColor="#009688"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing6"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing7"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing8"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing9"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing10"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing11"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing12"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_15ssp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/writing13"
+                android:textColor="#009688"
+                android:textIsSelectable="true"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing14"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/amjad"
+                android:gravity="center"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:text="الكتابة الوظيفيّة"
+                android:textColor="#009688"
+                android:textIsSelectable="true"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing15"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/amjad"
+                android:gravity="center"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:text="الكتابة الإقناعيّة"
+                android:textColor="#009688"
+                android:textIsSelectable="true"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing16"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/amjad"
+                android:gravity="center"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:text="الكتابة الإبداعيّة"
+                android:textColor="#009688"
+                android:textIsSelectable="true"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing17"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing18"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:fontFamily="@font/amjad"
+                android:gravity="center"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:text="كتابة القصيدة أو الرواية والقصة"
+                android:textColor="#009688"
+                android:textIsSelectable="true"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_15ssp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/writing19"
+                android:textColor="#009688"
+                android:textIsSelectable="true"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing20"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing21"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing22"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing23"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing24"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing25"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing26"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing27"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing28"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing29"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_15ssp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:text="@string/writing30"
+                android:textColor="#009688"
+                android:textIsSelectable="true"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing31"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing32"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing33"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing34"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing35"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing72"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing37"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing38"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing39"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing40"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing41"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing42"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing43"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing44"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing45"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing46"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing47"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing48"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing49"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing50"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing51"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing52"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing53"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing54"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing56"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing57"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing58"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing59"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing60"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing61"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing62"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing63"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing64"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing65"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing66"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing67"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing68"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing69"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
+                android:fontFamily="@font/regularaa"
+                android:includeFontPadding="true"
+                android:lineSpacingExtra="4sp"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="@string/writing70"
+                android:textColor="#BDBDBD"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/_12sdp" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

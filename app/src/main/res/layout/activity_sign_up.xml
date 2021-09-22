@@ -1,0 +1,202 @@
+    <?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:nestedScrollingEnabled="true"
+    tools:context=".auth.SignUp"
+    tools:ignore="UnusedAttribute">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/_30sdp"
+            >
+
+            <TextView
+                android:id="@+id/title_SignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_20ssp"
+                android:fontFamily="@font/ubuntu"
+                android:text="@string/create_a_new_account"
+                android:textColor="@color/colorTxt"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageView
+                android:id="@+id/pick_profile"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_photo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title_SignUp"
+                />
+
+            <LinearLayout
+                android:id="@+id/names"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/pick_profile">
+
+
+                <EditText
+                    android:id="@+id/edt_First_Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20ssp"
+                    android:layout_marginTop="@dimen/_25sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_edt_register"
+                    android:fontFamily="@font/ubuntu"
+                    android:gravity="center"
+                    android:hint="First Name"
+                    android:inputType="textPersonName"
+                    android:padding="@dimen/_15sdp"
+                    android:textColor="@color/colorTxt"
+                    android:textColorHint="#979797"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/names"
+
+                    />
+
+                <EditText
+                    android:id="@+id/edt_Second_Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_25sdp"
+                    android:layout_marginEnd="@dimen/_20ssp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_edt_register"
+                    android:drawablePadding="@dimen/_10ssp"
+                    android:fontFamily="@font/ubuntu"
+                    android:gravity="center"
+                    android:hint="Second Name"
+                    android:inputType="textPersonName"
+                    android:padding="@dimen/_15sdp"
+                    android:textColor="@color/colorTxt"
+                    android:textColorHint="#979797"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/names"
+
+                    />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edt_Mail_SignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20ssp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_20ssp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="@drawable/rounded_edt_register"
+                android:drawableStart="@drawable/ic_mail"
+                android:drawablePadding="@dimen/_10ssp"
+                android:fontFamily="@font/ubuntu"
+                android:hint="E-Mail"
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/_15sdp"
+                android:textColor="@color/colorTxt"
+                android:textColorHint="#979797"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/names"
+
+                />
+
+            <EditText
+                android:id="@+id/edt_Pass_SignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20ssp"
+                android:layout_marginTop="@dimen/_10ssp"
+                android:layout_marginEnd="@dimen/_20ssp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="@drawable/rounded_edt_register"
+                android:drawableStart="@drawable/ic_pass"
+                android:drawablePadding="@dimen/_10ssp"
+                android:fontFamily="@font/ubuntu"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="@dimen/_15sdp"
+                android:textColor="@color/colorTxt"
+                android:textColorHint="#979797"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/edt_Mail_SignUp"
+
+                />
+
+            <EditText
+                android:id="@+id/edt_RePass_SignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20ssp"
+                android:layout_marginTop="@dimen/_10ssp"
+                android:layout_marginEnd="@dimen/_20ssp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:background="@drawable/rounded_edt_register"
+                android:drawableStart="@drawable/ic_pass"
+                android:drawablePadding="@dimen/_10ssp"
+                android:fontFamily="@font/ubuntu"
+                android:hint="Re-Password"
+                android:inputType="textPassword"
+                android:padding="@dimen/_15sdp"
+                android:textColor="@color/colorTxt"
+                android:textColorHint="#979797"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/edt_Pass_SignUp"
+
+                />
+
+
+            <Button
+                android:id="@+id/btn_SignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20ssp"
+                android:backgroundTint="#757575"
+                android:ems="6"
+                android:fontFamily="@font/ubuntu_bold"
+                android:paddingTop="@dimen/_10ssp"
+                android:paddingBottom="@dimen/_10ssp"
+                android:text="SignUp"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/edt_RePass_SignUp"
+                tools:ignore="UnusedAttribute" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/colorAccent"
+    app:cardBackgroundColor="@color/colorAccent"
+    app:cardCornerRadius="20sp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true"
+    tools:ignore="UnusedAttribute">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_Selected_Quote"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_140sdp"
+            android:contentDescription="@string/todo"
+            android:scaleType="centerCrop"
+            android:src="@drawable/testayah"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/largeLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/rounded_card_quote"
+            android:padding="@dimen/_10ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_Card_Quote"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="fill_vertical"
+                android:src="@drawable/ic_user"
+                app:layout_constraintBottom_toTopOf="@id/txt_Username_Quote"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+
+            <TextView
+                android:id="@+id/text_Quote"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:ellipsize="end"
+                android:fontFamily="@font/regularaa"
+                android:lineSpacingExtra="2sp"
+                android:nestedScrollingEnabled="true"
+                android:maxLines="4"
+                android:textColorHint="#E6E6E6"
+                android:hint="@string/example"
+                android:textColor="#E6E6E6"
+                android:textSize="@dimen/_10ssp"
+                app:layout_constraintBottom_toBottomOf="@id/largeLabel"
+                app:layout_constraintEnd_toEndOf="@id/largeLabel"
+                app:layout_constraintStart_toEndOf="@id/profile_Card_Quote"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_Username_Quote"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:fontFamily="@font/ubuntu"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Name"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_8sdp"
+                android:textStyle=""
+                app:layout_constraintBottom_toBottomOf="@id/largeLabel"
+                app:layout_constraintEnd_toEndOf="@id/profile_Card_Quote"
+                app:layout_constraintStart_toStartOf="@id/profile_Card_Quote"
+                app:layout_constraintTop_toBottomOf="@id/profile_Card_Quote"
+
+                />
+
+            <ImageView
+                android:id="@+id/started_quotes"
+                android:layout_width="@dimen/_6sdp"
+                android:layout_height="@dimen/_6sdp"
+                android:src="@drawable/ic_star"
+                app:layout_constraintBottom_toBottomOf="@id/txt_Username_Quote"
+                app:layout_constraintStart_toEndOf="@id/txt_Username_Quote"
+                app:layout_constraintTop_toTopOf="@id/txt_Username_Quote" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/user_Delete_Quote"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_margin="@dimen/_5sdp"
+            android:src="@drawable/ic_trash_bin"
+            android:tint="#972020"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="UseAppTint" />
+
+        <ImageView
+            android:id="@+id/user_Accept_Quote"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_margin="@dimen/_5sdp"
+            android:src="@drawable/accept_mark"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="UseAppTint" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
+
+
+

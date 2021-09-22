@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.scriptor.scriptor2020">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity android:name=".sections.short_stories.CreateShortStory"></activity>
+        <activity android:name=".auth.RestPassword" />
+        <activity android:name=".auth.Login" />
+        <activity android:name=".sections.novels.CreateNovel" />
+        <activity android:name=".setting.Setting" />
+        <activity android:name=".feedback.CreateFeedBack" />
+        <activity android:name=".sections.quotes.CreateQuote" />
+        <activity android:name=".sections.quotes.QuoteView" />
+        <activity android:name=".auth.SignUp" />
+        <activity android:name=".cpanel.CPanel" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

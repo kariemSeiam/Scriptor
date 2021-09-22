@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".sections.short_stories.CreateShortStory">
+  
+  
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_15ssp"
+        android:background="@color/colorAccent"
+        app:cardBackgroundColor="@color/colorAccent"
+        android:backgroundTint="@color/colorAccent"
+        android:nestedScrollingEnabled="true"
+        app:cardCornerRadius="@dimen/_15ssp"
+        tools:ignore="UnusedAttribute">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/create_shortS_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_20sdp"
+                android:fontFamily="@font/ubuntu_bold"
+                android:text="Add Short Story"
+                android:textColor="@color/colorTxt"
+                android:textSize="@dimen/_20sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_5sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/create_shortS_Title">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="@dimen/_50sdp">
+
+                    <EditText
+                        android:id="@+id/edt_shortS_Name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_15ssp"
+                        android:background="#2E2E2E"
+                        android:fontFamily="@font/regularaa"
+                        android:gravity="start"
+                        android:hint="@string/add_short_story_title"
+                        android:nestedScrollingEnabled="true"
+                        android:padding="@dimen/_10ssp"
+                        android:textColor="@color/colorTxt"
+                        android:textColorHint="#5E5E5E"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="Autofill"
+                        />
+                    <EditText
+                        android:id="@+id/edt_shortS_URL"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_15ssp"
+                        android:background="#2E2E2E"
+                        android:fontFamily="@font/regularaa"
+                        android:gravity="start"
+                        android:hint="@string/add_short_story_body"
+                        android:nestedScrollingEnabled="true"
+                        android:padding="@dimen/_10ssp"
+                        android:textColor="@color/colorTxt"
+                        android:textColorHint="#5E5E5E"
+                        android:minHeight="@dimen/_200sdp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/edt_shortS_Name"
+                        />
+
+                    <Button
+                        android:id="@+id/btn_Create_shortS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_25sdp"
+                        android:ems="10"
+                        android:fontFamily="@font/ubuntu"
+                        android:text="@string/post"
+                        android:textColor="@color/colorTxt"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/edt_shortS_URL"
+
+                        />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.core.widget.NestedScrollView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
