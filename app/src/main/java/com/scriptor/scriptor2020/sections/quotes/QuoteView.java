@@ -16,12 +16,10 @@ public class QuoteView extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quote_view);
+        quoteViewText = findViewById(R.id.quote_View_Text);
+        quoteViewUsername = findViewById(R.id.quoteView_Username);
         getExstras();
-        quoteViewText.setText(quote);
-        quoteViewUsername.setText(username);
-        if (!isAdmin){
 
-        }
 
     }
 
@@ -32,6 +30,13 @@ public class QuoteView extends AppCompatActivity {
             username = extras.getString("username");
             imageURL = extras.getString("backPhoto");
             isAdmin = extras.getBoolean("isAdmin");
+
+            quoteViewText.setText(quote);
+            quoteViewUsername.setText(username);
+            if (!isAdmin){
+
+            }
+
         }
     }
 

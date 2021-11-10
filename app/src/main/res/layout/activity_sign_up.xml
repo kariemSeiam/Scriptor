@@ -1,4 +1,4 @@
-    <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -19,8 +19,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingBottom="@dimen/_30sdp"
-            >
+            android:paddingBottom="@dimen/_30sdp">
 
             <TextView
                 android:id="@+id/title_SignUp"
@@ -45,8 +44,7 @@
                 android:src="@drawable/ic_photo"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/title_SignUp"
-                />
+                app:layout_constraintTop_toBottomOf="@id/title_SignUp" />
 
             <LinearLayout
                 android:id="@+id/names"

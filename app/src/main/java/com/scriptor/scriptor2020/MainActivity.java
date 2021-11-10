@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSe
     FirebaseFirestore db = FirebaseFirestore.getInstance();
     LinearLayout btn_CPanel;
     Boolean validation, isAdmin;
-    String url, username, uid;
+    String url, username, uid , quote;
     ProgressBar progressBar;
 
 
@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSe
                         isAdmin = task.getResult().getBoolean("isAdmin");
                         url = task.getResult().getString("profile_url");
                         username = task.getResult().getString("username");
+                        quote = task.getResult().getString("quote");
 
                         if (!validation) {
                             auth.signOut();
@@ -102,6 +103,8 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSe
             intent.putExtra("profile", url);
             intent.putExtra("isAdmin", isAdmin);
             intent.putExtra("uid", uid);
+            intent.putExtra("quote", quote);
+
             startActivity(intent);
 
 

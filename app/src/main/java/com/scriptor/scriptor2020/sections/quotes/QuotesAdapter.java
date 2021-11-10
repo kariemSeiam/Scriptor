@@ -50,6 +50,7 @@ public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.RecyclerVi
             intent.putExtra("text", holder.tvQuote.getText().toString());
             intent.putExtra("username", holder.tvUsername.getText().toString());
             intent.putExtra("is_admin", false);
+            intent.putExtra("quote", holder.tvQuote.getText().toString() );
             v.getContext().startActivity(intent);
 
         });

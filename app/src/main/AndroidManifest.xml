@@ -12,7 +12,7 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="false"
         android:theme="@style/AppTheme">
-        <activity android:name=".sections.short_stories.CreateShortStory"></activity>
+        <activity android:name=".sections.short_stories.CreateShortStory" />
         <activity android:name=".auth.RestPassword" />
         <activity android:name=".auth.Login" />
         <activity android:name=".sections.novels.CreateNovel" />
@@ -22,7 +22,8 @@
         <activity android:name=".sections.quotes.QuoteView" />
         <activity android:name=".auth.SignUp" />
         <activity android:name=".cpanel.CPanel" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
